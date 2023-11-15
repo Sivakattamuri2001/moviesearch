@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Movie search</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="search">
+        <input type="text" id="movieSearch" placeholder="Search any movie">
+        <input class="year" type="text" id="year" placeholder="year">
+        <button class="btn" onclick="search()">Search Movie</button>
+    </div>
+
+    <div class="movieDetails">
+        <div class="">
+            <h1 id="title"></h1>
+            <p>Release Date: <span id="date"></span></p>
+            <p>Actors: <span id="actors"></span></p>
+            <p>Genre: <span id="genre"></span></p>
+            <p>Description: <span id="desc"></span></p>
+            <p>Directors: <span id="director"></span></p>
+            <p>Box Office Collection: <span id="collection"></span></p>
+            <p>IMDB Ratings: <span id="ratings"></span></p>
+
+            <p>Language: <span id="language"></span></p>
+            <p>Writer: <span id="writer"></span></p>
+            <p>Year: <span id="year"></span></p>
+
+        </div>
+        <img id="poster" src="" alt="">
+    </div>
+
+
+
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
